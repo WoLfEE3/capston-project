@@ -10,4 +10,6 @@ spec:
   - name: svx-port
     protocol: TCP
     port: 80
+    targetPort: 80
+    nodePort: 30008
     
